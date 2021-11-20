@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
@@ -44,7 +43,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
-        featuredImage
+        video
+        videoPoster
       }
     }
   }
