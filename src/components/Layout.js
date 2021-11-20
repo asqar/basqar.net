@@ -73,7 +73,7 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            <GithubCorner url="https://github.com/asqar/b.asqar.net" />
+            <GithubCorner url="https://github.com/asqar/basqar.net" />
 
             <Nav subNav={subNav} />
 
