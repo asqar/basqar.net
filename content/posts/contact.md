@@ -16,4 +16,3 @@ meta:
   - [Facebook](https://facebook.com/asqar)
   - [Twitter](https://twitter.com/asqar)
   - Skype: b.asqar
-  - [Email](mailto:basqar@gmail.com)

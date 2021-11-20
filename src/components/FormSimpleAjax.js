@@ -77,21 +77,21 @@ class Form extends React.Component {
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
+                placeholder="Аты"
                 name="firstname"
                 required
               />
-              <span>Firstname</span>
+              <span>Аты</span>
             </label>
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Lastname"
+                placeholder="Тегі"
                 name="lastname"
                 required
               />
-              <span>Lastname</span>
+              <span>Тегі</span>
             </label>
           </div>
           <fieldset>
@@ -103,7 +103,7 @@ class Form extends React.Component {
                 value="male"
                 defaultChecked
               />
-              <span>Male</span>
+              <span>Еркек</span>
             </label>
             <label className="Form--Label Form--Radio">
               <input
@@ -112,43 +112,43 @@ class Form extends React.Component {
                 name="gender"
                 value="female"
               />
-              <span>Female</span>
+              <span>Әйел</span>
             </label>
           </fieldset>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
               type="email"
-              placeholder="Email"
+              placeholder="Электронды адрес (email)"
               name="emailAddress"
               required
             />
-            <span>Email address</span>
+            <span>Электронды адрес (email)</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
               className="Form--Input Form--Select"
               name="type"
-              defaultValue="Type of Enquiry"
+              defaultValue="Тақырып"
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+              Тақырып
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Толығырақ білу керек</option>
+              <option>Қате табылды</option>
+              <option>Сәлем айтқым келеді</option> 
             </select>
           </label>
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
-              placeholder="Message"
+              placeholder="Мәтін"
               name="message"
               rows="10"
               required
             />
-            <span>Message</span>
+            <span>Мәтін</span>
           </label>
           <label className="Form--Label Form-Checkbox">
             <input
@@ -156,11 +156,11 @@ class Form extends React.Component {
               name="newsletter"
               type="checkbox"
             />
-            <span>Get news updates</span>
+            <span>Жаңалықтарға жазылу </span>
           </label>
           <div
             className="g-recaptcha"
-            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
+            data-sitekey="6Led4UYdAAAAAL77WH7c9uk1jf8uB1taW5W_c62z"
           />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />

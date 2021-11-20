@@ -1,10 +1,10 @@
 ---
 template: BlogIndex
 slug: blog
-title: Blog Page
+title: Блог
 featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+subtitle: Басқару теориясы (теория управления) – әртүрлі жүйелерді, процестерді және объектілерді басқарудың принциптері мен әдістері туралы ғылым. Басқару теориясының әдістері қолдану саласына қарай – кибернетикада, қолданбалы математикада, компьютерлік бағдарламалауда, әлеуметтануда, саясаттануда, құқықтануда, экономикада ерекшеленеді.
 meta:
-  description: This is a meta description.
-  title: Blog Page
+  description: басқару теориясы, басқар, баскар, баскару, basqar, basqaru, baskar, baskaru, asqar.
+  title: Блог
 ---
